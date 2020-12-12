@@ -5,6 +5,10 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="icon" type="image/png" href="img/favicon/Outsider_prod_favicon_2.svg">
     <link rel="apple-touch-icon" href="img/favicon/Outsider_prod_favicon_1.svg">
     <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/Outsider_prod_favicon_1.svg">
@@ -72,7 +76,7 @@
                     <a href="contacts.html" class="menu__link">
                       Контакты
                     </a>
-                    <a href="contacts.html" class="menu__link">
+                    <a href="contacts.html" class="partner__link">
                       Партнерам
                     </a>
 
@@ -81,65 +85,57 @@
         </header>
         
         <main class="index-page">
-          <a href="folio.html">
-            <h1 class="content-title">Видео-продакшн полного цикла в Санкт-Петербурге</h1>
-          </a>          
-                    <div class="video">
-                        <iframe src="https://player.vimeo.com/video/174437346" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-                        </iframe>
-                    </div>
+          
+          <div class="slideshow-container">
+            
+            <div class="mySlides fade"><!-- Full-width images with number and caption text -->
+              <img src="img/slideshow/Aksia_10.png" class="slideshow-img" alt="">
+            </div>
+            <div class="mySlides fade"><!-- Full-width images with number and caption text -->
+              <img src="img/slideshow/car_logo.jpg" class="slideshow-img" alt="">
+            </div>
+            <div class="mySlides fade"><!-- Full-width images with number and caption text -->
+              <img src="img/slideshow/car_logo.jpg" class="slideshow-img" alt="">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a><!-- Next and previous buttons -->
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div><!--slideshow container-->
+        <br>
+      <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+          </div>
+          <div class="outsider-article">
+          <div class="folio-btn">
+            <a href="folio.html">
+                <button>Заказать</button>
+            </a>
+        </div>
+        </div>
+                
+            <div class="outsider-article">
+                <h1 class="outsider-title"> Солнцезащитные шторки Трокот - лучшая и законная альтернатива тонировке</h1>
+                <ul>
+                  <li>Доставка</li>
+                  <li>Опыт работы 5 лет</li>
+                  <li>Гарантия 3 года</li>
+                </ul>
+            </div>
+           
+            <a href="folio.html">
+              <h1 class="content-title">Трокот Официальные представители в Санкт-Петербурге</h1>
+            </a>
             
             <div class="outsider-article">
-                <h1 class="outsider-title"> Аутсайдер - тот, кто держится в стороне</h1>
-                <p class="outsider-text">
-                    Для нас это означает – держаться в стороне от подражания, конвейерного видеопроизводства и мышления штампами.
-                     Когда относишься к своей работе как к шансу сделать что-то новое, она обречена на достойный результат. 
-                     Мы стараемся смотреть особым взглядом на каждый из проектов, а ещё нашей команде свойственно искренне увлекаться любым заказом.
-                </p>
-            </div>
-            <div class="slideshow-container">
-              <div class="mySlides fade"><!-- Full-width images with number and caption text -->
-                <img src="img/slideshow/1.jpg" class="slideshow-img" alt="">
-              </div>
-              <div class="mySlides fade">
-                <img src="img/slideshow/2.jpg" class="slideshow-img" alt="">
-              </div>
-              <div class="mySlides fade">
-                <img src="img/slideshow/3.jpg" class="slideshow-img" alt="">
-              </div>
-              <div class="mySlides fade">
-                <img src="img/slideshow/4.jpg" class="slideshow-img" alt="">
-              </div>
-              <div class="mySlides fade">
-                <img src="img/slideshow/5.jpg" class="slideshow-img" alt="">
-              </div>
-              <div class="mySlides fade">
-                <img src="img/slideshow/6.jpg" class="slideshow-img" alt="">
-              </div>
-              <div class="mySlides fade">
-                <img src="img/slideshow/7.jpg" class="slideshow-img" alt="">
-              </div>
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a><!-- Next and previous buttons -->
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div><!--slideshow container-->
-          <br>
-        <!-- The dots/circles -->
-            <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span>
-              <span class="dot" onclick="currentSlide(2)"></span>
-              <span class="dot" onclick="currentSlide(3)"></span>
-              <span class="dot" onclick="currentSlide(4)"></span>
-              <span class="dot" onclick="currentSlide(5)"></span>
-            </div>
-            <div class="outsider-article">
-                <h1 class="outsider-title">Направление работы</h1>
-                <p class="outsider-text">
-                    Диапазон наших заказчиков — самый разный: от ресторанов до медицинских центров и производственных цехов. К каждому клиенту мы относимся как к самому важному, потому что заинтересованы в том, чтобы наша работа принесла результат, будь то повышение продаж, создание позитивного имиджа или презентация бренда.
-                </p>
+            
             
             <div class="folio-btn">
                 <a href="folio.html">
-                    <button>портфолио</button>
+                    <button>заказать</button>
                 </a>
             </div>
           </div>
@@ -219,7 +215,7 @@
 
         <footer class="footer" id="footer">
             <a href="#">
-                <img class="footer-logo" src="img/icons/logo_out_white.png" alt="">
+                <img class="footer-logo" src="img/PNG/logo_Trocot-01.png" alt="">
                 </a>
               <div class="line"></div>
                 <div class="contacts">
