@@ -5,7 +5,6 @@ $post = (!empty($_POST)) ? true : false;
 if($post) {
 $phone = trim($_POST['tel']);
 $name = trim($_POST['name']);
-$email = trim($_POST['email']);
 $text = trim($_POST['text']);
 
 $subject ="Новая заявка с сайта outsider-production.ru";
