@@ -1,28 +1,3 @@
-@font-face{
-    font-family: "Jost";
-    src: url(../FONT-Jost/Jost-300-Light.otf) format("truetype");
-    font-weight:normal;
-    font-style: normal;
-}
-@font-face{
-    font-family: "Jost";
-    src: url(../FONT-Jost/Jost-500-Medium.otf) format("truetype");
-    font-weight: medium;
-    font-style: normal;
-}
-@font-face{
-    font-family: "Jost";
-    src: url(..//FONT-Jost/Jost-700-Bold.otf) format("truetype");
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face{
-    font-family: "Birch";
-    src: url(..//fonts/15275.ttf) format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
 body{
     margin: 0em;
     font-family: 'Noto Sans', sans-serif;
